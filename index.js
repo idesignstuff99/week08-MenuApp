@@ -68,15 +68,15 @@ class Menu {
             `);
     }
 
-    // showMainMenuOptions(teamInfo) {
-    //     return prompt(`
-    //         0) back
-    //         1) create player
-    //         3) delete player
-    //         ----------------------
-    //         ${teamInfo}
-    //         `);
-    // }
+    showTeamMenuOptions(teamInfo) {
+        return prompt(`
+            0) back
+            1) create player
+            3) delete player
+            ----------------------
+            ${teamInfo}
+            `);
+    }
 
     displayTeams() {
         let teamString = '';
